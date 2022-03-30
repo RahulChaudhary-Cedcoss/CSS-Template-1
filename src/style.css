@@ -1,3 +1,16 @@
+body {
+    background-color:white;
+}
+#sitename {
+    margin-left: 0;
+    color: hsl(0deg 0% 0%);
+    background-color: hsl(0deg 0% 80%);
+    padding-top: 5px;
+    
+}
+#site {
+  padding-left: 1%;
+}
 ul {
   list-style-type: none;
   margin: 0%;
@@ -22,4 +35,42 @@ li a {
 }
 li a:hover {
   background-color: green;
+}
+.content1 {
+    float: left;
+    float: top;
+    width: 67%;
+    background-color: white;
+    padding-bottom: 0%;
+    padding: 1%;
+}
+.content2 {
+    float: right;
+    width: 28%;
+    background-color: hsl(0deg 0% 88%);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 20%;
+    z-index: 2;
+}
+#pageheading {
+    line-height: 0%;
+    font-size: 25px;
+    padding-bottom: 0%;
+    color:hsl(202deg 100% 19%);
+}
+#asideheading {
+    line-height: 0%;
+    font-size: 20px;
+    color:hsl(210deg 100% 24%);
+}
+.footer {
+  background-color: hsl(0deg 0% 80%);
+  padding-bottom: 0;
+  float: right;
+  padding-left: 84.5%;
+  padding-right: 1%;
+  margin-bottom: 0;
+  z-index: 1;
+
 }
