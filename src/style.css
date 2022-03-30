@@ -6,6 +6,7 @@ body {
     color: hsl(0deg 0% 0%);
     background-color: hsl(0deg 0% 80%);
     padding-top: 5px;
+    font-family: "Gill Sans", sans-serif;
     
 }
 #site {
@@ -50,27 +51,35 @@ li a:hover {
     background-color: hsl(0deg 0% 88%);
     padding-left: 1%;
     padding-right: 1%;
-    padding-bottom: 20%;
+    padding-bottom: 9.5%;
     z-index: 2;
 }
 #pageheading {
     line-height: 0%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+    padding: 0;
     font-size: 25px;
     padding-bottom: 0%;
     color:hsl(202deg 100% 19%);
+    font-family: "Gill Sans", sans-serif;
 }
 #asideheading {
-    line-height: 0%;
+  line-height: 0%;
+    margin-bottom: 0%;
+    margin-top: 8%;
+    padding: 0;
     font-size: 20px;
     color:hsl(210deg 100% 24%);
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bolder;
 }
 .footer {
   background-color: hsl(0deg 0% 80%);
-  padding-bottom: 0;
   float: right;
-  padding-left: 84.5%;
+  padding-left: 84.4%;
   padding-right: 1%;
-  margin-bottom: 0;
   z-index: 1;
+  margin-bottom: 0%;
 
 }
